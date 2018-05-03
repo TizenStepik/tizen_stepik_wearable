@@ -1,0 +1,6 @@
+set sysroot C:\Users\admin\Tizen1\platforms\tizen-3.0\wearable\rootstraps\wearable-3.0-device.core
+set debug-file-directory C:\Users\admin\Tizen1\platforms\tizen-3.0\wearable\rootstraps\wearable-3.0-device.core\usr\lib\debug
+set solib-search-path C:\Users\admin\workspace1\SpeechToTextService\Debug
+dir C:\Users\admin\Tizen1\platforms\tizen-3.0\wearable\rootstraps\wearable-3.0-device.core\usr\src\debug
+file "C:\Users\admin\workspace1\SpeechToTextService\Debug\speechtotextservice"
+sharedlibrary

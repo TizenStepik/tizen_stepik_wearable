@@ -1,0 +1,104 @@
+Archive:  /opt/usr/share/crash/dump/notesservice_23624_20180328062026.zip
+  inflating: notesservice_23624_20180328062026/notesservice_23624_20180328062026.info  
+Executable File Path: /opt/usr/globalapps/5zfZeMzxoW/bin/notesservice
+Signal: 6
+      (SIGABRT)
+
+Register Information
+gs  = 0x00000033, fs  = 0x00000000
+es  = 0x0000007b, ds  = 0x0000007b
+edi = 0x00000000, esi = 0x00000008
+ebp = 0xbfbb34b0, esp = 0xbfbb34a0
+eax = 0x00000000, ebx = 0x00000002
+ecx = 0xbfbb34b0, edx = 0x00000000
+eip = 0xb7723a49
+
+Memory information
+MemTotal:   507848 KB
+MemFree:	    52068 KB
+Buffers:	    26860 KB
+Cached:	    241792 KB
+VmPeak:	     41124 KB
+VmSize:	     40100 KB
+VmLck:	          0 KB
+VmPin:	          0 KB
+VmHWM:	      10412 KB
+VmRSS:	      10412 KB
+VmData:	     20164 KB
+VmStk:	        136 KB
+VmExe:	          8 KB
+VmLib:	      15856 KB
+VmPTE:	         48 KB
+VmSwap:	         0 KB
+
+Threads Information
+Threads: 3
+PID = 23624 TID = 23624
+23624 23628 23629 
+
+Maps Information
+        800df000         800e1000 r-xp /opt/usr/globalapps/5zfZeMzxoW/bin/notesservice
+        80f6f000         80fd5000 rw-p [heap]
+        b66e3000         b66e7000 r-xp /usr/lib/libuuid.so.1.3.0
+        b66eb000         b6736000 r-xp /usr/lib/libblkid.so.1.1.0
+        b673c000         b6743000 r-xp /usr/lib/libsmack.so.1.3.0
+        b6745000         b68b5000 r-xp /usr/lib/libstdc++.so.6.0.22
+        b68bf000         b68d3000 r-xp /usr/lib/libsensord-shared.so
+        b68d5000         b68ee000 r-xp /usr/lib/libgcc_s.so.1
+        b68f0000         b68f4000 r-xp /usr/lib/libcap.so.2.24
+        b68f6000         b6952000 r-xp /usr/lib/libmount.so.1.1.0
+        b6958000         b6981000 r-xp /usr/lib/liblzma.so.5.2.2
+        b6983000         b6991000 r-xp /usr/lib/libbuxton2.so.1.2.16
+        b6993000         b6998000 r-xp /usr/lib/libgdbm.so.3.0.0
+        b699c000         b69af000 r-xp /usr/lib/libresolv-2.24.so
+        b69b4000         b69cb000 r-xp /usr/lib/libz.so.1.2.11
+        b69cd000         b69d0000 r-xp /usr/lib/libgmodule-2.0.so.0.5200.2
+        b69d2000         b69de000 r-xp /usr/lib/libminizip.so.1.0.0
+        b69e0000         b69e3000 r-xp /usr/lib/libSLP-db-util.so.0.1.0
+        b69e5000         b6a05000 r-xp /usr/lib/libpkgmgr_parser.so.0.12.6
+        b6a07000         b6a0d000 r-xp /usr/lib/libffi.so.6.0.2
+        b6a10000         b6a3b000 r-xp /usr/lib/libsensor-genuine.so.4.0.3
+        b6a3d000         b6a44000 r-xp /usr/lib/librt-2.24.so
+        b6a46000         b6ae1000 r-xp /usr/lib/libsystemd.so.0.16.0
+        b6ae5000         b6b5a000 r-xp /usr/lib/libeina.so.1.16.0
+        b6b5e000         b6b6e000 r-xp /usr/lib/libeo.so.1.16.0
+        b6b71000         b6b85000 r-xp /usr/lib/libefl.so.1.16.0
+        b6b88000         b6c00000 r-xp /usr/lib/libpcre.so.1.2.7
+        b6c02000         b6c0b000 r-xp /usr/lib/libstorage.so.0.1
+        b6c0e000         b6c11000 r-xp /usr/lib/libttrace.so.1.1
+        b6c13000         b6d74000 r-xp /usr/lib/libxml2.so.2.9.4
+        b6d7b000         b6d7f000 r-xp /usr/lib/libiniparser.so.0
+        b6d81000         b6d87000 r-xp /usr/lib/libvconf.so.0.3.1
+        b6d89000         b6d8d000 r-xp /usr/lib/libcapi-system-info.so.0.2.1
+        b6d90000         b6d97000 r-xp /usr/lib/libtzplatform-config-2.0.so.2.0.0
+        b6d99000         b6da2000 r-xp /usr/lib/libxdgmime.so.1.1.0
+        b6da6000         b6da9000 r-xp /usr/lib/libdl-2.24.so
+        b6dab000         b6e05000 r-xp /usr/lib/libm-2.24.so
+        b6e07000         b6fb6000 r-xp /usr/lib/libgio-2.0.so.0.5200.2
+        b6fbd000         b719d000 r-xp /usr/lib/libcrypto.so.1.0.0
+        b71b7000         b71e0000 r-xp /usr/lib/libpkgmgr-info.so.0.12.6
+        b71e2000         b7234000 r-xp /usr/lib/libgobject-2.0.so.0.5200.2
+        b7236000         b725d000 r-xp /usr/lib/libjson-glib-1.0.so.0.200.0
+        b725f000         b7269000 r-xp /usr/lib/libcapi-base-common.so.0.4.19
+        b726c000         b7285000 r-xp /usr/lib/libpthread-2.24.so
+        b7289000         b7292000 r-xp /usr/lib/libappcore-common.so.1.9.10
+        b7294000         b72c0000 r-xp /usr/lib/libecore.so.1.16.0
+        b72d3000         b72da000 r-xp /usr/lib/libcapi-appfw-app-control.so.0.7.0
+        b72dc000         b73f8000 r-xp /usr/lib/libglib-2.0.so.0.5200.2
+        b73fa000         b742e000 r-xp /usr/lib/libaul.so.0.7.16
+        b7430000         b75d6000 r-xp /usr/lib/libc-2.24.so
+        b75dd000         b76da000 r-xp /usr/lib/libsqlite3.so.0.8.6
+        b76de000         b76ea000 r-xp /usr/lib/libmessage-port.so.1.3.10
+        b76ec000         b76f3000 r-xp /usr/lib/libdlog.so.0.0.0
+        b76fd000         b7700000 r-xp /usr/lib/libcapi-appfw-app-common.so.0.5.13
+        b7702000         b7708000 r-xp /usr/lib/libbundle.so.0.2.3
+        b770a000         b770d000 r-xp /usr/lib/libappcore-agent.so.1.2.6
+        b7724000         b7747000 r-xp /usr/lib/ld-2.24.so
+        bfb94000         bfbb5000 rw-p [stack]
+End of Maps Information
+
+Callstack Information (PID:23624)
+Call Stack Count: 1
+ 0: __kernel_vsyscall (0xb7723a49) [[vdso: 23624]] + 0xa49
+End of Call Stack
+

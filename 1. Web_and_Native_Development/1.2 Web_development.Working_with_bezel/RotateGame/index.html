@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Circular UI</title>
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	<!-- load theme file for your application -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="ui-page ui-page-active" id="main">
+		<header class="ui-header">
+			<h2 class="ui-title">Rotate Game</h2>
+		</header>
+		<div class="ui-content content-padding">
+			<p>Rotate bezel as shown on the screen</p>
+		</div>
+		<footer class="ui-footer ui-bottom-button">
+			<button class="ui-btn" id="btn-start-game">START</button>
+		</footer>
+	</div>
+	
+	<div class="ui-page" id="page-game">
+		<div class="ui-content content-padding">
+			<p id="label-command">Right</p>
+			<p id="label-score">0</p>
+		</div>
+	</div>
+	
+	<div class="ui-page" id="page-score">
+		<div class="ui-content content-padding">
+			<p>Congratulations!</p>
+			<p id="label-result-score"></p>
+		</div>
+		<footer class="ui-footer ui-bottom-button">
+			<button class="ui-btn" id="btn-ok">OK</button>
+		</footer>
+	</div>
+	<script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
+	<script src="app.js"></script>
+	<script src="lowBatteryCheck.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.example.heartratemonitoringservice" version="1.0.0">
+    <profile name="wearable"/>
+    <service-application appid="org.example.heartratemonitoringservice" exec="heartratemonitoringservice" multiple="false" nodisplay="true" taskmanage="false" type="capp">
+        <label>heartratemonitoringservice</label>
+        <icon>heartratemonitoringservice.png</icon>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+    </privileges>
+</manifest>

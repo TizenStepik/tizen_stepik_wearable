@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.example.speechtotextservice" version="1.0.0">
+    <profile name="wearable"/>
+    <service-application appid="org.example.speechtotextservice" exec="speechtotextservice" multiple="false" nodisplay="true" taskmanage="false" type="capp">
+        <label>speechtotextservice</label>
+        <icon>speechtotextservice.png</icon>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/dpm.microphone</privilege>
+        <privilege>http://tizen.org/privilege/recorder</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/speech.recognition">true</feature>
+</manifest>
